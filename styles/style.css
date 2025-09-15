@@ -5,21 +5,25 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-.nav{
-    padding: 1.4rem 15rem;
-    display: flex;
+.header{
     width: 100%;
+    background-color: #EEEDE7;
+}
+.nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1.4rem 0;
     align-items: center;
     justify-content: space-between;
     color: #503217;
-    background-color: #EEEDE7;
     font-weight: 500;
 }
 .nav-middle-section{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 2.4rem;
+    justify-content: start;
 }
 .nav-last-section{
     display: flex;
